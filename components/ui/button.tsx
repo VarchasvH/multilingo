@@ -10,23 +10,23 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-[#f4f3f2] text-[#111] border-slate-200 border-2 border-b-4 active:border-b-2 hover:bg-slate-100",
+          "bg-[#fff] text-[#111] border-slate-200 border-2 border-b-4 active:border-b-2 hover:bg-slate-100",
 
         primary:
           "bg-sky-400 text-primary-foreground hover:bg-sky-400/90 border-sky-500 border-b-4 active:border-b-0",
-        primaryOutline: "bg-[#f4f3f2] text-sky-500 hover:bg-slate-100",
+        primaryOutline: "bg-[#fff] text-sky-500 hover:bg-slate-100",
 
         secondary:
           "bg-green-500 text-primary-foreground hover:bg-green-400/90 border-green-600 border-b-4 active:border-b-0",
-        secondaryOutline: "bg-[#f4f3f2] text-green-500 hover:bg-slate-100",
+        secondaryOutline: "bg-[#fff] text-green-500 hover:bg-slate-100",
 
         danger:
           "bg-rose-500 text-primary-foreground hover:bg-rose-400/90 border-rose-600 border-b-4 active:border-b-0",
-        dangerOutline: "bg-[#f4f3f2] text-rose-500 hover:bg-slate-100",
+        dangerOutline: "bg-[#fff] text-rose-500 hover:bg-slate-100",
 
         super:
           "bg-indigo-500 text-primary-foreground hover:bg-indigo-400/90 border-indigo-600 border-b-4 active:border-b-0",
-        superOutline: "bg-[#f4f3f2] text-indigo-500 hover:bg-slate-100",
+        superOutline: "bg-[#fff] text-indigo-500 hover:bg-slate-100",
 
         ghost:
           "bg-transparent text-slate-500 border-transparent border-0 hover:bg-slate-100 ",
