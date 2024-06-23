@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hero from "../../public/hero.svg";
+import hero from "../../public/languages.svg";
 import {
   ClerkLoaded,
   ClerkLoading,
